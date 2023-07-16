@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employee Data</title>
+    <!-- Include Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+    <style>
+      /* CSS to add padding and gap in the table cells and rows */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      /* CSS to center the button */
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      /* CSS to make the modal responsive */
+      .modal-dialog {
+        max-width: 90vw;
+        width: auto;
+        margin: 1.75rem auto;
+      }
+
+      .modal-content {
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <!-- Button to trigger the modal -->
+      <button type="button" class="btn btn-primary" id="showModalBtn">
+        Show Employee Data
+      </button>
+    </div>
+
+    <!-- Include the JavaScript file -->
+    <script src="script.js"></script>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+/* CSS to add padding and gap in the table cells and rows */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+    /* CSS to center the button */
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+  
+      /* CSS to make the modal responsive */
+      .modal-dialog {
+        max-width: 90vw;
+        width: auto;
+        margin: 1.75rem auto;
+      }
+  
+      .modal-content {
+        padding: 1rem;
+      }
+  
